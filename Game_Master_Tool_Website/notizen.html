@@ -1,249 +1,394 @@
 <!doctype html>
 <html lang="de">
-    <head>
-        <title>Notizen erstellen mit Gamemaster Tool</title>
-        <meta charset="utf-8">
-        <meta name="robots" content="noindex">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="Description" content="Mit dem Gamemaster Tool übersichtliche Notizen erstellen. Damit die Story deines Pen & Paper Spieleabends immer rund bleibt.">
-        <link href="default.css" rel="stylesheet">
-        <link href="galerie/lightbox2/dist/css/lightbox.min.css" rel="stylesheet" />
-        <link href="fonts/fontawesome/css/all.min.css" rel="stylesheet">
-        <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-    </head>
-    <body>
-        <div class="center1200">
-            <header>
-                <nav class="center1200nav">
-                    <ul>
-                        <li><a href="index.html"><i class="far fa-images"></i><p>Handouts</p></a></li>
-                        <li><a class="akt" href="notizen.html"><i class="far fa-clipboard"></i><p>Notizen</p></a></li>
-                        <li><a href="charsheet.html"><i class="fas fa-table"></i><p>Charsheet</p></a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#regeln"><i class="fas fa-question"></i><p>Regeln</p></a></li>
-                        <li><a href="#personen"><i class="fas fa-user-friends"></i><p>Personen</p></a></li>
-                        <li><a href="#inventar"><i class="fas fa-suitcase"></i><p>Inventar</p></a></li>
-                        <li><a href="#protokoll"><i class="fas fa-pencil-alt"></i><p>Protokoll</p></a></li>
-                        <li><a href="#lorem1"><i class="fas fa-sun"></i><p>Lorem 1</p></a></li>
-                        <li><a href="#lorem2"><i class="fas fa-sun"></i><p>Lorem 2</p></a></li>
-                    </ul>
-                    <!-- p tag ist für responsive -->
-                </nav>
-            </header>
-            <main class="center1200 abstand_oben" id="notizen">
-                <article>
-                    <!-- Fehlerbehebung, damit Regeln nach Hochscrollen angewählt bleibt -->
-                    <div id="regeln" class="jumper"></div>
-                    <h1>Notizen</h1>
-                    <div class="container">
-                            <div class="left">
-                                <div class="notizen_icon"><i class="fas fa-question"></i></div>
-                                <h2>Regeln</h2>
-                            </div>
-                        <div class="right">
-                            <h3>Fertigkeiten</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quo quod sunt aut quidem beatae ex placeat possimus adipisci vel atque reprehenderit debitis, sit laboriosam modi praesentium itaque minus quia illum deserunt rem dicta quae. Nobis sit ab maiores deserunt voluptate? Vero quibusdam culpa aut consequuntur deserunt distinctio expedita necessitatibus!
-                            <h3>Erfolge</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, incidunt.
-                            <h3>Patzer</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit, tempore cum aliquam possimus voluptas doloremque maiores obcaecati pariatur! Explicabo!
-                            <h3>Heilung</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus ipsam. Iure reprehenderit accusamus est minus, esse omnis dolorem officiis sed illum perferendis numquam dolor deleniti ipsum necessitatibus consequuntur exercitationem.
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="container">
-                        <div class="left">
-                            <div id="personen" class="notizen_icon jumper"><i class="fas fa-user-friends"></i></div>
-                            <h2>Personen</h2>
-                        </div>
-                        <div class="right">
-                            <h3>Frau Musterfrau</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quod iure fuga ipsa eum fugiat odit perferendis sit explicabo consequatur dolorum magnam, praesentium mollitia at sed deserunt obcaecati vero quidem, rerum id blanditiis nam? Ut quia ipsum esse consectetur voluptatibus!</p>
-                            <h3>Herr Platzhalter</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod autem repudiandae eligendi corrupti quam ab ex illo, atque at.</p>
-                            <h3>Zeuge 1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore dicta possimus rem, eum commodi suscipit? Dolore et, ipsa ad adipisci maiores tenetur quos voluptas omnis sint provident illo atque!</p>
-                            <h3>Zeuge 2</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore dicta possimus rem, eum commodi suscipit? Dolore et, ipsa ad adipisci maiores tenetur quos voluptas omnis sint provident illo atque!</p>
-                            <h3>Zeuge 3</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore dicta possimus rem, eum commodi suscipit? Dolore et, ipsa ad adipisci maiores tenetur quos voluptas omnis sint provident illo atque!</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="container">
-                        <div class="left">
-                            <div id="inventar" class="notizen_icon jumper"><i class="fas fa-suitcase"></i></div>
-                            <h2>Inventar Gruppe</h2>
-                        </div>
-                        <div class="right">
-                            <h3>Taschenlampen</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga, quis odio at deserunt similique, saepe dicta eos possimus doloremque, ea accusamus autem facilis sunt minus suscipit natus soluta ipsum.</p>
-                            <h3>Rätselhafts Buch in fremder Sprache</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga, quis odio at deserunt similique, saepe dicta eos possimus doloremque, ea accusamus autem facilis sunt minus suscipit natus soluta ipsum.</p>
-                            <h3>Foto von verdächtiger Frau</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga, quis odio at deserunt similique, saepe dicta eos possimus doloremque, ea accusamus autem facilis sunt minus suscipit natus soluta ipsum.</p>
-                            </div>
-                        </div>
-                </article>
-                <article>
-                    <div class="container">
-                        <div class="left">
-                            <div id="protokoll" class="notizen_icon jumper"><i class="fas fa-pencil-alt"></i></div>
-                            <h2>Protokoll</h2>
-                        </div>
-                        <div class="right">
-                            <h3>Session 1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quae tempora explicabo alias fugiat sed repudiandae nesciunt enim nostrum ipsa ducimus non ea fugit a unde voluptatibus cumque sit necessitatibus aliquid quia, soluta odit, delectus distinctio consequuntur! At ratione, nemo quos, saepe minima consequuntur nostrum neque, voluptate eveniet voluptatem excepturi consectetur dolore? Dolorem, veniam natus. Voluptas natus sequi dolore aperiam! Quo adipisci in, architecto magnam quaerat et sint tenetur, alias voluptate sapiente labore sunt deserunt maiores, voluptatem ab aut! Ut reprehenderit recusandae atque illum quibusdam incidunt enim fuga non quas sequi? Possimus nemo aliquid molestiae consequatur debitis odit earum obcaecati!</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt atque amet neque velit a modi ipsam facere, vel debitis iure, culpa molestias ullam ad minus cumque? Consequatur sapiente beatae assumenda eos voluptatem eum modi laudantium minus, esse tenetur aliquid distinctio ullam, excepturi, magni pariatur ea deleniti quo deserunt molestias provident!</p>
-                            <h3>Session 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis vero minima necessitatibus non suscipit doloribus quasi rerum ipsa? Minima beatae aliquam modi saepe, dolore, autem deserunt molestias vitae provident earum quaerat minus perspiciatis, atque officiis consequuntur? Alias neque pariatur molestiae ab at inventore, enim excepturi? Eius, voluptatibus! Quia, repudiandae quis:</p>
 
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum corrupti nisi dolorem reiciendis ratione mollitia rem dolor accusamus, odit laudantium.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum totam quaerat dolorem consequatur rerum vero corporis ad ea nihil est!</li>
-                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque nesciunt perferendis iure corporis cum eveniet praesentium sequi aliquam optio eius.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta corporis itaque, a nobis nostrum dolore quaerat blanditiis consequatur numquam sint aliquid nihil enim. Odio excepturi ullam voluptatem non libero.</li>
-                            </ul>
+<head>
+    <title>Notizen erstellen mit Gamemaster Tool</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description"
+        content="Mit dem Gamemaster Tool übersichtliche Notizen erstellen. Damit die Story deines Pen & Paper Spieleabends immer rund bleibt.">
+    <link href="default.css" rel="stylesheet">
+    <link href="galerie/lightbox2/dist/css/lightbox.min.css" rel="stylesheet" />
+    <link href="fonts/fontawesome/css/all.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aperiam, odit fugit quae id voluptate nobis amet, ad deserunt libero veritatis, perferendis pariatur neque eos eaque quam illo suscipit corrupti praesentium commodi reprehenderit quas temporibus hic. Exercitationem amet magni, nisi, reiciendis esse ea tempora tempore unde numquam veritatis tenetur repudiandae!</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="container">
-                        <div class="left">
-                            <div id="lorem1" class="notizen_icon jumper"><i class="fas fa-sun"></i></div>
-                            <h2>Lorem 1</h2>
-                        </div>
-                        <div class="right">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptas, excepturi commodi maxime iure assumenda sequi, molestiae consectetur sint officiis temporibus optio! Ducimus enim accusantium iusto expedita eos ut libero modi nihil, atque eaque ea fugit quo praesentium nostrum ad debitis, labore consequuntur aspernatur dolorum delectus pariatur, et assumenda! Quas cum fuga laborum labore corporis ipsam in. Eligendi similique, rem quibusdam labore explicabo dignissimos! Corrupti vero velit, totam maxime commodi, optio debitis veniam dolorum laborum error labore nulla tempora illo repudiandae, placeat vel quibusdam. Asperiores inventore porro explicabo quaerat delectus temporibus doloremque atque corporis accusantium maxime esse veniam itaque quae deserunt quis ut, aspernatur nisi unde modi recusandae, sunt veritatis fuga aperiam. Accusamus aliquid dolores officia nam eos ea, ratione id sapiente voluptatem maxime nemo velit similique fugit soluta quibusdam delectus quas suscipit. Vitae dolores aperiam sapiente tempora ratione beatae ipsum nemo totam aliquid autem exercitationem voluptatum atque accusamus inventore id, ex dicta expedita veniam cumque error ipsam quaerat! Repellendus qui impedit unde nihil sint nulla ratione laboriosam amet facere illo in explicabo fugit modi quaerat quisquam reprehenderit ullam eum, dicta dolor! Qui possimus quibusdam necessitatibus soluta, dolor molestias maiores architecto tempora modi ullam velit consequuntur, odit assumenda odio! Vel?</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="container">
-                        <div class="left">
-                            <div id="lorem2" class="notizen_icon jumper"><i class="fas fa-sun"></i></div>
-                            <h2>Lorem 2</h2>
-                        </div>
-                        <div class="right">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odio laudantium eum modi! Aperiam harum nam ducimus hic, deleniti quos magni voluptatem numquam provident, officiis perspiciatis assumenda quisquam sapiente commodi fuga veritatis sed facere dolorum sint blanditiis architecto reiciendis? Fugit dolores ratione, quae asperiores maxime sint aliquam fuga et unde distinctio hic accusantium laboriosam mollitia similique. Cumque, vitae ullam. Quidem magnam esse exercitationem quis! Eveniet dignissimos laborum vitae at, velit sequi! Deleniti voluptatem perferendis earum soluta nesciunt sint iure maiores delectus voluptatibus, libero sequi sed reiciendis quis nihil repellendus quasi nobis porro repudiandae labore enim quo. Doloribus, accusantium tenetur mollitia omnis laborum soluta quas eaque perspiciatis maxime amet nihil atque reprehenderit. Explicabo quam nam nisi placeat quaerat officiis ratione vel id omnis tempora! Nisi eligendi accusantium cum earum est amet nulla fugit voluptates rem ipsam suscipit dicta, velit tempore nesciunt at excepturi rerum aliquid eum enim odit maiores, quas dolorum veritatis ratione! Quaerat dolore temporibus minima a impedit explicabo, recusandae ea porro magni veniam beatae vero optio expedita consectetur possimus aliquid nobis fugit dolorem voluptas officiis? Tenetur, ut, repellendus magnam nostrum reprehenderit repellat dolor explicabo impedit earum architecto, quaerat in illum optio libero maxime accusantium consectetur expedita. Consequatur quibusdam tempora tempore omnis iste maiores quam esse ab veritatis earum laudantium aut numquam obcaecati, neque dolorum, id nobis eum ullam deserunt quaerat officiis deleniti. Voluptates cumque, sit quis facilis magnam possimus natus adipisci aut velit unde fugit eveniet qui quo dolore voluptatem quod placeat quibusdam cupiditate neque cum? Dolor, blanditiis aliquid quidem alias repellat nihil quod laboriosam voluptas in eveniet iusto corrupti maiores tempore sit consequatur quis molestiae odio tempora! Sed cupiditate, ipsum, excepturi tempore eveniet non repudiandae facilis ullam, voluptatem nisi eos delectus! Minus iste saepe fuga et sit pariatur alias, voluptates rerum consectetur est aperiam similique eaque ducimus ad.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odio laudantium eum modi! Aperiam harum nam ducimus hic, deleniti quos magni voluptatem numquam provident, officiis perspiciatis assumenda quisquam sapiente commodi fuga veritatis sed facere dolorum sint blanditiis architecto reiciendis? Fugit dolores ratione, quae asperiores maxime sint aliquam fuga et unde distinctio hic accusantium laboriosam mollitia similique. Cumque, vitae ullam. Quidem magnam esse exercitationem quis! Eveniet dignissimos laborum vitae at, velit sequi! Deleniti voluptatem perferendis earum soluta nesciunt sint iure maiores delectus voluptatibus, libero sequi sed reiciendis quis nihil repellendus quasi nobis porro repudiandae labore enim quo. Doloribus, accusantium tenetur mollitia omnis laborum soluta quas eaque perspiciatis maxime amet nihil atque reprehenderit. Explicabo quam nam nisi placeat quaerat officiis ratione vel id omnis tempora! Nisi eligendi accusantium cum earum est amet nulla fugit voluptates rem ipsam suscipit dicta, velit tempore nesciunt at excepturi rerum aliquid eum enim odit maiores, quas dolorum veritatis ratione! Quaerat dolore temporibus minima a impedit explicabo, recusandae ea porro magni veniam beatae vero optio expedita consectetur possimus aliquid nobis fugit dolorem voluptas officiis? Tenetur, ut, repellendus magnam nostrum reprehenderit repellat dolor explicabo impedit earum architecto, quaerat in illum optio libero maxime accusantium consectetur expedita. Consequatur quibusdam tempora tempore omnis iste maiores quam esse ab veritatis earum laudantium aut numquam obcaecati, neque dolorum, id nobis eum ullam deserunt quaerat officiis deleniti. Voluptates cumque, sit quis facilis magnam possimus natus adipisci aut velit unde fugit eveniet qui quo dolore voluptatem quod placeat quibusdam cupiditate neque cum? Dolor, blanditiis aliquid quidem alias repellat nihil quod laboriosam voluptas in eveniet iusto corrupti maiores tempore sit consequatur quis molestiae odio tempora! Sed cupiditate, ipsum, excepturi tempore eveniet non repudiandae facilis ullam, voluptatem nisi eos delectus! Minus iste saepe fuga et sit pariatur alias, voluptates rerum consectetur est aperiam similique eaque ducimus ad.</p>
-                        </div>
-                    </div>
-                </article>
-            </main>
-
-            <footer id="ende">
+<body>
+    <div class="center1200">
+        <header>
+            <nav class="center1200nav">
                 <ul>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                    <li><a href="impressum.html">Impressum</a></li>
-                    <li><a href="datenschutz.html">Datenschutz</a></li>
+                    <li><a href="index.html"><i class="far fa-images"></i>
+                            <p>Handouts</p>
+                        </a></li>
+                    <li><a class="akt" href="notizen.html"><i class="far fa-clipboard"></i>
+                            <p>Notizen</p>
+                        </a></li>
+                    <li><a href="charsheet.html"><i class="fas fa-table"></i>
+                            <p>Charsheet</p>
+                        </a></li>
                 </ul>
-            </footer>
+                <ul>
+                    <li><a link="#regeln"><i class="fas fa-question"></i>
+                            <p>Regeln</p>
+                        </a></li>
+                    <li><a link="#personen"><i class="fas fa-user-friends"></i>
+                            <p>Personen</p>
+                        </a></li>
+                    <li><a link="#inventar"><i class="fas fa-suitcase"></i>
+                            <p>Inventar</p>
+                        </a></li>
+                    <li><a link="#protokoll"><i class="fas fa-pencil-alt"></i>
+                            <p>Protokoll</p>
+                        </a></li>
+                    <li><a link="#lorem1"><i class="fas fa-sun"></i>
+                            <p>Lorem 1</p>
+                        </a></li>
+                    <li><a link="#lorem2"><i class="fas fa-sun"></i>
+                            <p>Lorem 2</p>
+                        </a></li>
+                </ul>
+                <!-- p tag ist für responsive -->
+            </nav>
+        </header>
+        <main class="center1200 abstand_oben" id="notizen">
+            <article>
+                <!-- Fehlerbehebung, damit Regeln nach Hochscrollen angewählt bleibt -->
+                <h1>Notizen</h1>
+                <div class="container">
+                    <div class="left">
+                        <div id="regeln" class="notizen_icon"><i class="fas fa-question"></i></div>
+                        <h2>Regeln</h2>
+                    </div>
+                    <div class="right">
+                        <h3>Fertigkeiten</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quo quod sunt aut quidem beatae
+                            ex placeat possimus adipisci vel atque reprehenderit debitis, sit laboriosam modi
+                            praesentium itaque minus quia illum deserunt rem dicta quae. Nobis sit ab maiores deserunt
+                            voluptate? Vero quibusdam culpa aut consequuntur deserunt distinctio expedita
+                            necessitatibus!
+                        <h3>Erfolge</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, incidunt.
+                        <h3>Patzer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit, tempore cum aliquam
+                            possimus voluptas doloremque maiores obcaecati pariatur! Explicabo!
+                        <h3>Heilung</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus ipsam. Iure
+                            reprehenderit accusamus est minus, esse omnis dolorem officiis sed illum perferendis numquam
+                            dolor deleniti ipsum necessitatibus consequuntur exercitationem.
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container">
+                    <div class="left">
+                        <div id="personen" class="notizen_icon"><i class="fas fa-user-friends"></i></div>
+                        <h2>Personen</h2>
+                    </div>
+                    <div class="right">
+                        <h3>Frau Musterfrau</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quod iure fuga ipsa eum
+                            fugiat odit perferendis sit explicabo consequatur dolorum magnam, praesentium mollitia at
+                            sed deserunt obcaecati vero quidem, rerum id blanditiis nam? Ut quia ipsum esse consectetur
+                            voluptatibus!</p>
+                        <h3>Herr Platzhalter</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod autem repudiandae
+                            eligendi corrupti quam ab ex illo, atque at.</p>
+                        <h3>Zeuge 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore dicta possimus
+                            rem, eum commodi suscipit? Dolore et, ipsa ad adipisci maiores tenetur quos voluptas omnis
+                            sint provident illo atque!</p>
+                        <h3>Zeuge 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore dicta possimus
+                            rem, eum commodi suscipit? Dolore et, ipsa ad adipisci maiores tenetur quos voluptas omnis
+                            sint provident illo atque!</p>
+                        <h3>Zeuge 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore dicta possimus
+                            rem, eum commodi suscipit? Dolore et, ipsa ad adipisci maiores tenetur quos voluptas omnis
+                            sint provident illo atque!</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container">
+                    <div class="left">
+                        <div id="inventar" class="notizen_icon"><i class="fas fa-suitcase"></i></div>
+                        <h2>Inventar Gruppe</h2>
+                    </div>
+                    <div class="right">
+                        <h3>Taschenlampen</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga, quis odio at deserunt
+                            similique, saepe dicta eos possimus doloremque, ea accusamus autem facilis sunt minus
+                            suscipit natus soluta ipsum.</p>
+                        <h3>Rätselhafts Buch in fremder Sprache</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga, quis odio at deserunt
+                            similique, saepe dicta eos possimus doloremque, ea accusamus autem facilis sunt minus
+                            suscipit natus soluta ipsum.</p>
+                        <h3>Foto von verdächtiger Frau</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga, quis odio at deserunt
+                            similique, saepe dicta eos possimus doloremque, ea accusamus autem facilis sunt minus
+                            suscipit natus soluta ipsum.</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container">
+                    <div class="left">
+                        <div id="protokoll" class="notizen_icon"><i class="fas fa-pencil-alt"></i></div>
+                        <h2>Protokoll</h2>
+                    </div>
+                    <div class="right">
+                        <h3>Session 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quae tempora explicabo
+                            alias fugiat sed repudiandae nesciunt enim nostrum ipsa ducimus non ea fugit a unde
+                            voluptatibus cumque sit necessitatibus aliquid quia, soluta odit, delectus distinctio
+                            consequuntur! At ratione, nemo quos, saepe minima consequuntur nostrum neque, voluptate
+                            eveniet voluptatem excepturi consectetur dolore? Dolorem, veniam natus. Voluptas natus sequi
+                            dolore aperiam! Quo adipisci in, architecto magnam quaerat et sint tenetur, alias voluptate
+                            sapiente labore sunt deserunt maiores, voluptatem ab aut! Ut reprehenderit recusandae atque
+                            illum quibusdam incidunt enim fuga non quas sequi? Possimus nemo aliquid molestiae
+                            consequatur debitis odit earum obcaecati!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt atque amet neque velit a modi
+                            ipsam facere, vel debitis iure, culpa molestias ullam ad minus cumque? Consequatur sapiente
+                            beatae assumenda eos voluptatem eum modi laudantium minus, esse tenetur aliquid distinctio
+                            ullam, excepturi, magni pariatur ea deleniti quo deserunt molestias provident!</p>
+                        <h3>Session 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis vero minima
+                            necessitatibus non suscipit doloribus quasi rerum ipsa? Minima beatae aliquam modi saepe,
+                            dolore, autem deserunt molestias vitae provident earum quaerat minus perspiciatis, atque
+                            officiis consequuntur? Alias neque pariatur molestiae ab at inventore, enim excepturi? Eius,
+                            voluptatibus! Quia, repudiandae quis:</p>
+
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum corrupti nisi dolorem
+                                reiciendis ratione mollitia rem dolor accusamus, odit laudantium.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum totam quaerat dolorem
+                                consequatur rerum vero corporis ad ea nihil est!</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque nesciunt
+                                perferendis iure corporis cum eveniet praesentium sequi aliquam optio eius.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta corporis
+                                itaque, a nobis nostrum dolore quaerat blanditiis consequatur numquam sint aliquid nihil
+                                enim. Odio excepturi ullam voluptatem non libero.</li>
+                        </ul>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aperiam, odit fugit quae id
+                            voluptate nobis amet, ad deserunt libero veritatis, perferendis pariatur neque eos eaque
+                            quam illo suscipit corrupti praesentium commodi reprehenderit quas temporibus hic.
+                            Exercitationem amet magni, nisi, reiciendis esse ea tempora tempore unde numquam veritatis
+                            tenetur repudiandae!</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container">
+                    <div class="left">
+                        <div id="lorem1" class="notizen_icon"><i class="fas fa-sun"></i></div>
+                        <h2>Lorem 1</h2>
+                    </div>
+                    <div class="right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptas, excepturi commodi
+                            maxime iure assumenda sequi, molestiae consectetur sint officiis temporibus optio! Ducimus
+                            enim accusantium iusto expedita eos ut libero modi nihil, atque eaque ea fugit quo
+                            praesentium nostrum ad debitis, labore consequuntur aspernatur dolorum delectus pariatur, et
+                            assumenda! Quas cum fuga laborum labore corporis ipsam in. Eligendi similique, rem quibusdam
+                            labore explicabo dignissimos! Corrupti vero velit, totam maxime commodi, optio debitis
+                            veniam dolorum laborum error labore nulla tempora illo repudiandae, placeat vel quibusdam.
+                            Asperiores inventore porro explicabo quaerat delectus temporibus doloremque atque corporis
+                            accusantium maxime esse veniam itaque quae deserunt quis ut, aspernatur nisi unde modi
+                            recusandae, sunt veritatis fuga aperiam. Accusamus aliquid dolores officia nam eos ea,
+                            ratione id sapiente voluptatem maxime nemo velit similique fugit soluta quibusdam delectus
+                            quas suscipit. Vitae dolores aperiam sapiente tempora ratione beatae ipsum nemo totam
+                            aliquid autem exercitationem voluptatum atque accusamus inventore id, ex dicta expedita
+                            veniam cumque error ipsam quaerat! Repellendus qui impedit unde nihil sint nulla ratione
+                            laboriosam amet facere illo in explicabo fugit modi quaerat quisquam reprehenderit ullam
+                            eum, dicta dolor! Qui possimus quibusdam necessitatibus soluta, dolor molestias maiores
+                            architecto tempora modi ullam velit consequuntur, odit assumenda odio! Vel?</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container">
+                    <div class="left">
+                        <div id="lorem2" class="notizen_icon"><i class="fas fa-sun"></i></div>
+                        <h2>Lorem 2</h2>
+                    </div>
+                    <div class="right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odio laudantium eum modi!
+                            Aperiam harum nam ducimus hic, deleniti quos magni voluptatem numquam provident, officiis
+                            perspiciatis assumenda quisquam sapiente commodi fuga veritatis sed facere dolorum sint
+                            blanditiis architecto reiciendis? Fugit dolores ratione, quae asperiores maxime sint aliquam
+                            fuga et unde distinctio hic accusantium laboriosam mollitia similique. Cumque, vitae ullam.
+                            Quidem magnam esse exercitationem quis! Eveniet dignissimos laborum vitae at, velit sequi!
+                            Deleniti voluptatem perferendis earum soluta nesciunt sint iure maiores delectus
+                            voluptatibus, libero sequi sed reiciendis quis nihil repellendus quasi nobis porro
+                            repudiandae labore enim quo. Doloribus, accusantium tenetur mollitia omnis laborum soluta
+                            quas eaque perspiciatis maxime amet nihil atque reprehenderit. Explicabo quam nam nisi
+                            placeat quaerat officiis ratione vel id omnis tempora! Nisi eligendi accusantium cum earum
+                            est amet nulla fugit voluptates rem ipsam suscipit dicta, velit tempore nesciunt at
+                            excepturi rerum aliquid eum enim odit maiores, quas dolorum veritatis ratione! Quaerat
+                            dolore temporibus minima a impedit explicabo, recusandae ea porro magni veniam beatae vero
+                            optio expedita consectetur possimus aliquid nobis fugit dolorem voluptas officiis? Tenetur,
+                            ut, repellendus magnam nostrum reprehenderit repellat dolor explicabo impedit earum
+                            architecto, quaerat in illum optio libero maxime accusantium consectetur expedita.
+                            Consequatur quibusdam tempora tempore omnis iste maiores quam esse ab veritatis earum
+                            laudantium aut numquam obcaecati, neque dolorum, id nobis eum ullam deserunt quaerat
+                            officiis deleniti. Voluptates cumque, sit quis facilis magnam possimus natus adipisci aut
+                            velit unde fugit eveniet qui quo dolore voluptatem quod placeat quibusdam cupiditate neque
+                            cum? Dolor, blanditiis aliquid quidem alias repellat nihil quod laboriosam voluptas in
+                            eveniet iusto corrupti maiores tempore sit consequatur quis molestiae odio tempora! Sed
+                            cupiditate, ipsum, excepturi tempore eveniet non repudiandae facilis ullam, voluptatem nisi
+                            eos delectus! Minus iste saepe fuga et sit pariatur alias, voluptates rerum consectetur est
+                            aperiam similique eaque ducimus ad.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odio laudantium eum modi!
+                            Aperiam harum nam ducimus hic, deleniti quos magni voluptatem numquam provident, officiis
+                            perspiciatis assumenda quisquam sapiente commodi fuga veritatis sed facere dolorum sint
+                            blanditiis architecto reiciendis? Fugit dolores ratione, quae asperiores maxime sint aliquam
+                            fuga et unde distinctio hic accusantium laboriosam mollitia similique. Cumque, vitae ullam.
+                            Quidem magnam esse exercitationem quis! Eveniet dignissimos laborum vitae at, velit sequi!
+                            Deleniti voluptatem perferendis earum soluta nesciunt sint iure maiores delectus
+                            voluptatibus, libero sequi sed reiciendis quis nihil repellendus quasi nobis porro
+                            repudiandae labore enim quo. Doloribus, accusantium tenetur mollitia omnis laborum soluta
+                            quas eaque perspiciatis maxime amet nihil atque reprehenderit. Explicabo quam nam nisi
+                            placeat quaerat officiis ratione vel id omnis tempora! Nisi eligendi accusantium cum earum
+                            est amet nulla fugit voluptates rem ipsam suscipit dicta, velit tempore nesciunt at
+                            excepturi rerum aliquid eum enim odit maiores, quas dolorum veritatis ratione! Quaerat
+                            dolore temporibus minima a impedit explicabo, recusandae ea porro magni veniam beatae vero
+                            optio expedita consectetur possimus aliquid nobis fugit dolorem voluptas officiis? Tenetur,
+                            ut, repellendus magnam nostrum reprehenderit repellat dolor explicabo impedit earum
+                            architecto, quaerat in illum optio libero maxime accusantium consectetur expedita.
+                            Consequatur quibusdam tempora tempore omnis iste maiores quam esse ab veritatis earum
+                            laudantium aut numquam obcaecati, neque dolorum, id nobis eum ullam deserunt quaerat
+                            officiis deleniti. Voluptates cumque, sit quis facilis magnam possimus natus adipisci aut
+                            velit unde fugit eveniet qui quo dolore voluptatem quod placeat quibusdam cupiditate neque
+                            cum? Dolor, blanditiis aliquid quidem alias repellat nihil quod laboriosam voluptas in
+                            eveniet iusto corrupti maiores tempore sit consequatur quis molestiae odio tempora! Sed
+                            cupiditate, ipsum, excepturi tempore eveniet non repudiandae facilis ullam, voluptatem nisi
+                            eos delectus! Minus iste saepe fuga et sit pariatur alias, voluptates rerum consectetur est
+                            aperiam similique eaque ducimus ad.</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer id="ende">
+            <ul>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="datenschutz.html">Datenschutz</a></li>
+            </ul>
+        </footer>
+    </div>
+    <div id="cookiedingsbums">
+        <div>
+            <span>Ja, auch diese Webseite verwendet Cookies.</span> <a href="datenschutz.html">Datenschutzerklärung</a>
         </div>
-        <div id="cookiedingsbums"><div>
-            <span>Ja, auch diese Webseite verwendet Cookies.</span> <a href="datenschutz.html">Datenschutzerklärung</a></div>
-            <span id="cookiedingsbumsCloser" onclick="document.cookie = 'hidecookiedingsbums=1;path=/';jQuery('#cookiedingsbums').slideUp()">&#10006;</span>
-        </div>
-        <script src="scripte/jquery-3.5.1.js"></script>
-        <!-- akt beim scrollen zuweisen -->
-        <script>
-            var navlink = $.map($('.jumper'), function(n, i) {
-                return "#" + n.id;
+        <span id="cookiedingsbumsCloser"
+            onclick="document.cookie = 'hidecookiedingsbums=1;path=/';jQuery('#cookiedingsbums').slideUp()">&#10006;</span>
+    </div>
+    <script src="scripte/jquery-3.5.1.js"></script>
+
+    <!-- ##### Verhalten des Jumper Menüs ##### -->
+
+    <script>
+        "use strict";
+
+        // ##### Aktiven Menüpunkt anzeigen, bei Klick zum entsprechenden Punkt springen
+        function showCurrentMenuItem() {
+            // nicht aktive Menüpunkte wieder löschen
+            let selectedMenuItem = Array.from(document.querySelectorAll(".center1200nav > ul:nth-of-type(2) > li > .akt"));
+            for (let i = 0; i < selectedMenuItem.length; i++) {
+                let currentMenuItem = selectedMenuItem[i];
+                currentMenuItem.classList.remove("akt");
+            }
+            this.classList.add("akt");
+
+            // passende ID zum ausgewählten Element finden
+            let ausgewaehltesElement = document.querySelector(this.attributes["link"].value);
+            // ##### zum entsprechenden Element soft scrollen #####
+            window.scrollTo({
+                top: ausgewaehltesElement.offsetTop - 120,
+                behavior: 'smooth'
             });
-            var navHeight = 110;
-            var ersterLinkBeiNull = true;
+        }
+        function selectCurrentMenuItem() {
+            let allMenuItems = Array.from(document.querySelectorAll(".center1200nav > ul:nth-of-type(2) > li > a"));
+            for (let i = 0; i < allMenuItems.length; i++) {
+                allMenuItems[i].addEventListener("click", showCurrentMenuItem);
+            }
+        }
+        selectCurrentMenuItem();
 
-            if(ersterLinkBeiNull == true)$('a[href="'+navlink[0]+'"]').addClass('akt');
+    </script>
 
-            $(window).scroll(function(){
+    <!-- ##### ##### beim Scrollen aktiven Menüpunkt anzeigen ##### -->
 
-                var topnow = $(window).scrollTop();
-
-                var x;
-                for(x = 0 ; x < navlink.length ; x++){
-                    if( x < (navlink.length-1)){
-                        var anf = $(navlink[x]).offset().top - navHeight -1;
-                        var end = $(navlink[(x+1)]).offset().top - navHeight -1;
-                        AktLink(navlink[x],anf,end,topnow);
-                    } else {
-                        var anf = $(navlink[x]).offset().top - navHeight -1;
-                        var end = $('#ende').offset().top;
-                        AktLink(navlink[x],anf,end,topnow);
-                    }
-                }
-            });
-            function AktLink(link,idStart,idEnd,pos){
-                if(pos >= idStart && pos < idEnd){
-                    $('nav ul a[href="'+link+'"]').addClass('akt');
-                } else {
-                    $('nav ul a[href="'+link+'"]').removeClass('akt');
+    <script>
+        function showCurrentMenuItemByScrolling() {
+            // nicht aktive Menüpunkte wieder löschen
+            let selectedMenuItem = Array.from(document.querySelectorAll(".center1200nav > ul:nth-of-type(2) > li > .akt"));
+            for (let i = 0; i < selectedMenuItem.length; i++) {
+                let currentMenuItem = selectedMenuItem[i];
+                currentMenuItem.classList.remove("akt");
+            }
+            let allIcons = Array.from(document.querySelectorAll(".notizen_icon"));
+            for (let i = allIcons.length - 1; i >= 0; i--) {
+                let currentElement = allIcons[i];
+                // Größe eines Elementes und dessen relative Position zum Viewport
+                let elementPosition = currentElement.getBoundingClientRect();
+                if (elementPosition.top < 250) {
+                    let matchingMenuItem = document.querySelector("a[link='#" + currentElement.id + "']");
+                    matchingMenuItem.classList.add("akt");
+                    break;
                 }
             }
-            $('nav ul a').click(function(){
-                var link = $(this).attr('href');
-                $('html,body').animate({scrollTop:($(link).offset().top - navHeight)},1000);
-                return false;
-            });
-        </script>
-        <!-- icons 1x fade in bei scroll -->
-        <script>
-            $(document).ready(function(){
-                //Aufruf der Funktionen, damit auch ohne scroll was angezeigt wird
-                WhatAnimation("notizen_icon");
-                // Funktionsaufruf bei scrollerei
-                $(window).scroll(function() {
-                    WhatAnimation("notizen_icon");
-                });
-                // durchläuft Inhalt in Schleife
-                function WhatAnimation(name) {
-                    $("." + name).each(function() {
-                        AddClass(this, "go");
-                    });
+        }
+        // damit auch ohne Scrolling etwas zu sehen ist
+        showCurrentMenuItemByScrolling()
+        window.addEventListener("scroll", showCurrentMenuItemByScrolling);
+    </script>
+
+    <!-- ##### icons 1x fade in bei scroll ##### -->
+
+    <script>
+        "use strict";
+
+        function showIcons() {
+            let allIcons = Array.from(document.querySelectorAll(".notizen_icon"));
+            for (let i = 0; i < allIcons.length; i++) {
+                let currentElement = allIcons[i];
+                // Größe eines Elementes und dessen relative Position zum Viewport
+                let elementPosition = currentElement.getBoundingClientRect();
+                if (elementPosition.top < window.innerHeight && elementPosition.top >= 0) {
+                    currentElement.classList.add("show_icons");
                 }
-                // Klassen zuweisen
-                function AddClass(object, name) {
-                    if (IsVisible(object)) { //wenn sichtbar ist
-                        $(object).addClass(name);
-                    }
-                }
-                // wann ist es sichtbar => return für function AddClass
-                function IsVisible(object) {
-                    var viewport = $(window).scrollTop() + $(window).height(); //akt.scrollpos + fensterhöhe
-                    var rand = $(object).offset(); //Position top/left
-                    rand.bottom = rand.top + $(object).outerHeight();
-                            console.log ($(window).scrollTop() + ' / ' + viewport   + ' / ' +   rand.top);
-                    return !(
-                        viewport < rand.top + 100 || $(window).scrollTop() > rand.bottom - 100
-                    ); // wenn außerhalb des Fensters
-                }
-            });
-        </script>
-        <!-- Cookiedingsbums -->
-        <script src="scripte/cookiedingsbums.js"></script>
-    </body>
+            }
+        }
+        // damit auch ohne Scrolling etwas zu sehen ist
+        showIcons();
+        window.addEventListener("scroll", showIcons);
+    </script>
+
+    <!-- ##### Cookiedingsbums ##### -->
+
+    <script src="scripte/cookiedingsbums.js"></script>
+</body>
+
 </html>
-
-

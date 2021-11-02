@@ -553,13 +553,8 @@ nav a.akt {
     transition-duration: 1500ms;
 }
 
-.go {
+.show_icons {
     opacity: 1;
-}
-
-/* sonst wird erster Punkt zu spät angewählt */
-#regeln {
-    transform: translateY(-100px);
 }
 
 #charsheet .container {
